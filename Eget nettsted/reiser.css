@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 70%;
+    background-position: center;
+
+}
+
+#wrapper {
+  width: 70%;
+  height: auto;
+  min-height: 500px;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.header {
+  width: 70%;
+  height: 70px;
+  background-color: #550a6e;
+  margin-top: 0;
+  position: fixed;
+}
+
+.logo {
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+
+.meny {
+  width: 90%;
+  height: 70px;
+  float: right;
+}
+
+.meny ul {
+  float: right;
+  list-style: none;
+  list-style-type: none;
+}
+
+.meny li {
+  float: left;
+  padding-right: 20px;
+  line-height: 70px;
+  font-family: verdana, sans-serif;
+}
+
+.meny a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.meny a:hover {
+  color: #196acd;
+}
+
+#reiser {
+  width: 80%;
+  height: 200px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_t {
+  width:100%;
+  height:250px;
+  margin-top:100px;
+}
+
+.reiser {
+  color: #ff00f0;
+  font-weight: bold;
+  font-family: verdana, sans-serif;
+}
+
+#barcelona {
+  width: 80%;
+  height: 220px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_ba {
+  width:100%;
+  height:240px;
+  background: rgba(137, 137, 137, 0.8);
+  margin-top:30px;
+}
+
+.barcelona_bilde {
+  padding-left: 20px;
+  padding-top: 20px;
+  float: left;
+}
+
+.barcelona_info {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+#cruiset {
+  width: 80%;
+  height: 220px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_cr {
+  width:100%;
+  height:240px;
+  background: rgba(137, 137, 137, 0.8);
+  margin-top:30px;
+}
+
+.cruiset_bilde {
+  padding-right: 20px;
+  padding-top: 20px;
+  float: right;
+}
+
+.cruiset_info {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+#marseille {
+  width: 80%;
+  height: 220px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_ma {
+  width:100%;
+  height:240px;
+  background: rgba(137, 137, 137, 0.8);
+  margin-top:30px;
+}
+
+.marseille_bilde {
+  padding-left: 20px;
+  padding-top: 20px;
+  float: left;
+}
+
+.marseille_info {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+#genova {
+  width: 80%;
+  height: 220px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_ge {
+  width:100%;
+  height:240px;
+  background: rgba(137, 137, 137, 0.8);
+  margin-top:30px;
+}
+
+.genova_bilde {
+  padding-right: 20px;
+  padding-top: 20px;
+  float: right;
+}
+
+.genova_info {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+#napoli {
+  width: 80%;
+  height: 220px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_na {
+  width:100%;
+  height:240px;
+  background: rgba(137, 137, 137, 0.8);
+  margin-top:30px;
+}
+
+.napoli_bilde {
+  padding-left: 20px;
+  padding-top: 20px;
+  float: left;
+}
+
+.napoli_info {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+#messina {
+  width: 80%;
+  height: 220px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_me {
+  width:100%;
+  height:240px;
+  background: rgba(137, 137, 137, 0.8);
+  margin-top:30px;
+}
+
+.messina_bilde {
+  padding-right: 20px;
+  padding-top: 20px;
+  float: right;
+}
+
+.messina_info {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+#valletta {
+  width: 80%;
+  height: 220px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_va {
+  width:100%;
+  height:240px;
+  background: rgba(137, 137, 137, 0.8);
+  margin-top:30px;
+}
+
+.valletta_bilde {
+  padding-left: 20px;
+  padding-top: 20px;
+  float: left;
+}
+
+.valletta_info {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+#calafat {
+  width: 80%;
+  height: 220px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, sans-serif;
+}
+
+.justering_ca {
+  width:100%;
+  height:240px;
+  margin-top:30px;
+  background: rgba(137, 137, 137, 0.8);
+}
+
+.calafat_bilde {
+  padding-right: 20px;
+  padding-top: 20px;
+  float: right;
+}
+
+.calafat_info {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 50%;
+  line-height: 1.5;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #550a6e;
+  padding-bottom: 0px;
+  position:relative;
+  margin-top: 100px;
+  font-family: verdana, sans-serif;
+}
+
+.logo_f {
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+
+.kontakt {
+  width: 90%;
+  height: 70px;
+  float: right;
+  font-family: verdana, sans-serif;
+}
+
+.kontakt ul {
+  float: right;
+  list-style: none;
+  list-style-type: none;
+}
+
+.kontakt li {
+  float: left;
+  padding-right: 70px;
+  line-height: 70px;
+  font-family: verdana, sans-serif;
+  color: #ffffff;
+}
